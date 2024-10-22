@@ -1,0 +1,7 @@
+.mueble-new {
+    transition: transform .3s ease;
+}
+
+.mueble-new:hover {
+    transform: scale(1.05);
+}
