@@ -1,10 +1,11 @@
-import { Button, Input } from "@nextui-org/react"
+import { Button, Input, Navbar } from "@nextui-org/react"
 import FlechaVolver from "../components/FlechaVolver"
+import NavBar from "../components/NavBar";
 
 const Subir = () => {
     return (
         <div className="reciclar flex flex-col items-center ">
-            <FlechaVolver/>
+            <NavBar page={"crear"}/>
             <h1 className="mt-[5vh]"> Subir anuncio </h1>
             <div className="space-y-5 w-[30vw]">
                 <Input type="titulo" label="Título" />
@@ -13,10 +14,13 @@ const Subir = () => {
                 <Input type="titulo" label="Departamento" />
 
                 <div>
-                <Input type="titulo" label="Arrastre un fichero o clique aquí para subir uno" />
+                <p className="text-start text-white font-bold mb-[1vh] text-[1.2rem]"> 
+                    Subir imagen del anuncio 
+                </p>
                 <input
                     className="file-upload-input"
                     type="file"
+                    name="Subir"
                 />
                 </div>
             </div>

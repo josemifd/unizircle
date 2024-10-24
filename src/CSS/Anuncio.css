@@ -1,0 +1,12 @@
+.reciclar {
+    min-height: 100vh;
+}
+
+.img-reciclar {
+    margin-top: 2vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

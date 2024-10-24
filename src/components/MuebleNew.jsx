@@ -9,8 +9,8 @@ const MuebleNew = ({ mueble, idx }) => {
   return (
     <a 
       className="mueble-new" 
-      onClick={() => navigate(constants.root + "reciclar/" + idx)}>
-    <Card className="py-4 bg-background mb-5" >
+      onClick={() => navigate(constants.root + "anuncio/" + idx)}>
+    <Card className="mueble-new py-4 bg-background" >
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start text-secondary">
         <p className="text-tiny uppercase font-bold">{mueble.facultad}</p>
         <small className="text-default-500">{mueble.departamento}</small>
