@@ -15,6 +15,7 @@ const MuebleNew = ({ mueble, idx }) => {
         <p className="text-tiny uppercase font-bold">{mueble.facultad}</p>
         <small className="text-default-500">{mueble.departamento}</small>
         <h4 className="font-bold text-large">{mueble.title}</h4>
+        <small className="text-default-500"> Estado: {mueble.estado}</small>
       </CardHeader>
       <CardBody className="overflow-visible py-2 items-center">
         <Image

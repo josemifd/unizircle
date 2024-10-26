@@ -6,8 +6,8 @@ const Subir = () => {
     return (
         <div className="reciclar flex flex-col items-center ">
             <NavBar page={"crear"}/>
-            <h1 className="mt-[5vh]"> Subir anuncio </h1>
-            <div className="space-y-5 w-[30vw]">
+            <h1 className="mt-[5vh]"> Crear anuncio </h1>
+            <div className="space-y-5 sm:w-[30vw] w-[90vw]">
                 <Input type="titulo" label="Título" />
                 <Input type="titulo" label="Facultad" />
                 <Input type="titulo" label="Departamento" />
@@ -18,14 +18,14 @@ const Subir = () => {
                     Subir imagen del anuncio 
                 </p>
                 <input
-                    className="file-upload-input"
+                    className="file-upload-input sm:w-[30vw] w-[90vw]"
                     type="file"
                     name="Subir"
                 />
                 </div>
             </div>
             <Button size="lg" color="primary" className="mt-[5vh] font-bold">
-                    Subir
+                Subir
             </Button>
         </div>
     )

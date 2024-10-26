@@ -6,7 +6,10 @@
 }
 
 .muebles {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Centra todas las filas por defecto */
+  padding: 20px;
 }
+

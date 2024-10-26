@@ -45,12 +45,14 @@ const Menu = () => {
               onChange={(e) => setSearch(e.target.value)}
             />
 
-            <div className="muebles mt-5 mb-[5vh] gap-[1.2vw]">
-                {filteredList.map((mueble, index) => (
-                    <div key={index}>
-                        <MuebleNew mueble={mueble} idx={mueble.id}/>
-                    </div>
-                ))}
+            <div className="flex justify-center">
+                <div className="muebles mt-5 mb-[5vh]">
+                    {filteredList.map((mueble, index) => (
+                        <div key={index}>
+                            <MuebleNew mueble={mueble} idx={mueble.id}/>
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     )
