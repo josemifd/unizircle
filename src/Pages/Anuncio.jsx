@@ -28,6 +28,7 @@ const Reciclar = () => {
                 <h1 className="mt-[5vh]"> {item.title} </h1>
                 <p className="opacity-50"> {item.departamento} </p>
                 <h3 className="text-[1.5rem] opacity-70"> {item.facultad} </h3>
+                <p className="opacity-50 mt-[2vh] text-[1.2rem]"> Estado: {item.estado}</p>
                 <Button size="lg" color="primary" className="mt-[2vh] mb-[2vh]">
                     Contactar
                 </Button>

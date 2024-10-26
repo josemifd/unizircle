@@ -1,5 +1,4 @@
-import { Button, Input, Navbar } from "@nextui-org/react"
-import FlechaVolver from "../components/FlechaVolver"
+import { Button, Input, Select, SelectItem } from "@nextui-org/react"
 import NavBar from "../components/NavBar";
 
 const Subir = () => {
@@ -12,6 +11,17 @@ const Subir = () => {
                 <Input type="titulo" label="Facultad" />
                 <Input type="titulo" label="Departamento" />
                 <Input type="titulo" label="Departamento" />
+                <Select 
+                  className="text-black"
+                  label="Selecciona su estado" >
+                    <SelectItem className="text-black">
+                      Para usar
+                    </SelectItem>
+                    <SelectItem className="text-black">
+                      Para reparar
+                    </SelectItem>
+
+                </Select>
 
                 <div>
                 <p className="text-start text-white font-bold mb-[1vh] text-[1.2rem]"> 
