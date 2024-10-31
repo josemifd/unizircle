@@ -10,7 +10,6 @@ const Subir = () => {
                 <Input type="titulo" label="Título" />
                 <Input type="titulo" label="Facultad" />
                 <Input type="titulo" label="Departamento" />
-                <Input type="titulo" label="Departamento" />
                 <Select 
                   className="text-black"
                   label="Selecciona su estado" >
